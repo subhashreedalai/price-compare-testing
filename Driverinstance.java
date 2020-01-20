@@ -25,6 +25,7 @@ public WebDriver driver;
 @AfterMethod
 public void closebrowser()
 {
+	System.out.println("done");
 	driver.close();
 }
 }
