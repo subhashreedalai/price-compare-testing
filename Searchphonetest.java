@@ -16,8 +16,11 @@ public class Searchphonetest extends Driverinstance
 		phn.searchbox();
 		phn.searchicon();
 		phn.clickphone();
-		phn.getprice();
+		phn.getamazonprice();
 		phn.flipkart();
+		phn.flipkartsearchbox();
+		phn.clicksearchbtn();
+		phn.getflipkartprice();
 	}
 
 }
